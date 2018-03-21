@@ -21,7 +21,7 @@ The project is a .NET Core application that includes code samples for some of th
 
 * `ArrayViewModel.LeftRotationByD`
 * `RecursionViewModel.Fibonacci`
-
+* `StringViewModel.IsStringPalindrome`
 
 
 
@@ -29,7 +29,8 @@ The project is a .NET Core application that includes code samples for some of th
 
 * `var array = ArrayViewModel.LeftRotationByD(new int[] { 1, 2, 3, 4, 5 }, 1);`
 * `var fib = RecursionViewModel.Fibonacci(3);`
-
+* `var palindrome = StringViewModel.IsStringPalindrome("Savvas");`
+            
 
 
 
