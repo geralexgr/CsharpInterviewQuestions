@@ -11,8 +11,8 @@ The project is a .NET Core application that includes code samples for some of th
 
 
 * Given an array of `n` integers and a number `k` , perform `k` left rotations on the array. 
-* Given n complete the fibonacci function so it returns Fibonacci(n).
-
+* Given n, complete the fibonacci function so it returns Fibonacci(n).
+* Detect if a string is Palindrome.
 
 
 
