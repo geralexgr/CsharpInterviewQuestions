@@ -11,6 +11,8 @@ The project is a .NET Core application that includes code samples for some of th
 
 
 * Given an array of `n` integers and a number `k` , perform `k` left rotations on the array. 
+* Given n complete the fibonacci function so it returns Fibonacci(n).
+
 
 
 
@@ -18,6 +20,7 @@ The project is a .NET Core application that includes code samples for some of th
 
 
 * `ArrayViewModel.LeftRotationByD`
+* `RecursionViewModel.Fibonacci`
 
 
 
@@ -25,7 +28,7 @@ The project is a .NET Core application that includes code samples for some of th
 ## Code ##
 
 * `var array = ArrayViewModel.LeftRotationByD(new int[] { 1, 2, 3, 4, 5 }, 1);`
-
+* `var fib = RecursionViewModel.Fibonacci(3);`
 
 
 
