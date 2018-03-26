@@ -18,6 +18,7 @@ namespace InterviewQuestions
             var palindrome = StringViewModel.IsStringPalindrome("Savvas");
             var sorted = LinkedListViewModel.InsertItemInSortedList(linkedlist, new LinkedListNode<int>(1));
             var removed = LinkedListViewModel.RemoveDuplicatesFromSortedList(linkedlist);
+            ArrayViewModel.PrintMultiplicationTable(10);
 
             /* END OF EXAMPLES  */
 

@@ -11,6 +11,7 @@ The project is a .NET Core application that includes code samples for some of th
 
 
 * Given an array of `n` integers and a number `k` , perform `k` left rotations on the array. 
+* Print multiplication table of size nxn.
 * Given n, complete the fibonacci function so it returns Fibonacci(n).
 * Detect if a string is Palindrome.
 * Insert an int item in a sorted linkedlist so that list remains sorted.
@@ -21,6 +22,7 @@ The project is a .NET Core application that includes code samples for some of th
 
 
 * `ArrayViewModel.LeftRotationByD`
+* `ArrayViewModel.PrintMultiplicationTable`
 * `RecursionViewModel.Fibonacci`
 * `StringViewModel.IsStringPalindrome`
 * `LinkedListViewModel.InsertItemInSortedList`
@@ -31,6 +33,7 @@ The project is a .NET Core application that includes code samples for some of th
 ## Code ##
 
 * `var array = ArrayViewModel.LeftRotationByD(new int[] { 1, 2, 3, 4, 5 }, 1);`
+* `PrintMultiplicationTable(10);`
 * `var fib = RecursionViewModel.Fibonacci(3);`
 * `var palindrome = StringViewModel.IsStringPalindrome("Savvas");`
 * `var sorted = LinkedListViewModel.InsertItemInSortedList(linkedlist, new LinkedListNode<int>(0));`
