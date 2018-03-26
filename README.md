@@ -15,6 +15,7 @@ The project is a .NET Core application that includes code samples for some of th
 * Find the sum of contiguous subarray within a one-dimensional array of numbers which has the largest sum.
 * Given n, complete the fibonacci function so it returns Fibonacci(n).
 * Detect if a string is Palindrome.
+* Given a string, find the longest subsequence consisting of a single character.
 * Insert an int item in a sorted linkedlist so that list remains sorted.
 * Remove duplicate ints from a sorted linkedlist.
 
@@ -27,6 +28,7 @@ The project is a .NET Core application that includes code samples for some of th
 * `ArrayViewModel.MaximumSumSubArray`
 * `RecursionViewModel.Fibonacci`
 * `StringViewModel.IsStringPalindrome`
+* `StringViewModel.LongesConsecutiveCharacters`
 * `LinkedListViewModel.InsertItemInSortedList`
 * `LinkedListViewModel.RemoveDuplicatesFromSortedList`
 
@@ -39,6 +41,7 @@ The project is a .NET Core application that includes code samples for some of th
 * `var result = ArrayViewModel.MaximumSumSubArray(new int[] { -2, -3, 4, -1, -2, 1, 5, -3 });`
 * `var fib = RecursionViewModel.Fibonacci(3);`
 * `var palindrome = StringViewModel.IsStringPalindrome("Savvas");`
+* `var tuple = StringViewModel.LongesConsecutiveCharacters("AABCDDBBBEA");`
 * `var sorted = LinkedListViewModel.InsertItemInSortedList(linkedlist, new LinkedListNode<int>(0));`
 * `var removed = LinkedListViewModel.RemoveDuplicatesFromSortedList(linkedlist);`
        

@@ -20,6 +20,7 @@ namespace InterviewQuestions
             var removed = LinkedListViewModel.RemoveDuplicatesFromSortedList(linkedlist);
             ArrayViewModel.PrintMultiplicationTable(10);
             var result = ArrayViewModel.MaximumSumSubArray(new int[] { -2, -3, 4, -1, -2, 1, 5, -3 });
+            var tuple = StringViewModel.LongesConsecutiveCharacters("AABCDDBBBEA");
             /* END OF EXAMPLES  */
 
             Console.ReadKey();
