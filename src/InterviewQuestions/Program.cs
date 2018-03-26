@@ -19,7 +19,7 @@ namespace InterviewQuestions
             var sorted = LinkedListViewModel.InsertItemInSortedList(linkedlist, new LinkedListNode<int>(1));
             var removed = LinkedListViewModel.RemoveDuplicatesFromSortedList(linkedlist);
             ArrayViewModel.PrintMultiplicationTable(10);
-
+            var result = ArrayViewModel.MaximumSumSubArray(new int[] { -2, -3, 4, -1, -2, 1, 5, -3 });
             /* END OF EXAMPLES  */
 
             Console.ReadKey();

@@ -40,6 +40,20 @@ namespace InterviewQuestions.ViewModels
             }
         }
 
+        public static int MaximumSumSubArray(int[] a)
+        {
+            int max = a[0];
+            int temp_max = a[0];
+
+            for (int i = 1; i < a.Length; i++)
+            {
+                temp_max += a[i];
+                if (temp_max < a[i]) temp_max = a[i];
+                if (temp_max > max) max = temp_max;
+            }
+            return max;
+        }
+
 
 
     }
