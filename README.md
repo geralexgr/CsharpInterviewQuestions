@@ -18,6 +18,7 @@ The project is a .NET Core application that includes code samples for some of th
 * Given a string, find the longest subsequence consisting of a single character.
 * Insert an int item in a sorted linkedlist so that list remains sorted.
 * Remove duplicate ints from a sorted linkedlist.
+* Invert a binary tree.
 
 
 ## Functions  ##
